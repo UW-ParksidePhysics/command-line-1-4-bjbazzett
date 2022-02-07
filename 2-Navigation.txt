@@ -1,1 +1,573 @@
+Last login: Mon Feb  7 13:59:24 on ttys000
 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+cart-123:~ bazze002$ pwd
+/Users/bazze002
+cart-123:~ bazze002$ ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+cart-123:~ bazze002$ cd /usr/bin
+cart-123:bin bazze002$ pwd
+/usr/bin
+cart-123:bin bazze002$ ls
+2to3-				mdfind
+2to3-2.7			mdimport
+AssetCacheLocatorUtil		mdls
+AssetCacheManagerUtil		mdutil
+AssetCacheTetheratorUtil	memory_pressure
+DeRez				mesg
+GetFileInfo			mg
+IOAccelMemory			mib2c
+IOMFB_FDR_Loader		mib2c-update
+ResMerger			mig
+Rez				mkbom
+SafeEjectGPU			mkfifo
+SetFile				mklocale
+SplitForks			mktemp
+a2p				mmroff
+aa				mnthome
+actool				moo-outdated
+addftinfo			moo-outdated5.18
+aea				moose-outdated
+afclip				moose-outdated5.18
+afconvert			moose-outdated5.30
+afhash				more
+afida				mp2bug
+afinfo				msgs
+afktool				nano
+afmtodit			native2ascii
+afplay				nbdst
+afscexpand			nc
+agentxtrap			ncal
+agvtool				ncctl
+alias				ncdestroy
+app-sso				ncinit
+applesingle			nclist
+appletviewer			ncurses5.4-config
+apply				neqn
+apropos				net-server
+apt				net-server5.18
+ar				net-server5.30
+arch				net-snmp-cert
+as				net-snmp-config
+asa				net-snmp-create-v3-user
+assetutil			nettop
+at				networkQuality
+atos				newaliases
+atq				newgrp
+atrm				newproc.d
+atsutil				nfsstat
+automationmodetool		nice
+automator			nl
+auval				nm
+auvaltool			nmedit
+avbdiagnose			nohup
+avbutil				notifyutil
+avconvert			nroff
+avmediainfo			nscurl
+avmetareadwrite			nslookup
+awk				nsupdate
+banner				objdump
+base64				ocspcheck
+basename			od
+bashbug				odutil
+batch				open
+bc				opendiff
+bg				opensnoop
+biff				openssl
+binhex				orbd
+binhex.pl			osacompile
+binhex5.18.pl			osadecompile
+binhex5.30.pl			osalang
+bioutil				osascript
+bison				otool
+bitesize.d			pack200
+bputil				package-stash-conflicts
+brctl				package-stash-conflicts5.18
+bsdtar				package-stash-conflicts5.30
+bspatch				pagesize
+bundle				pagestuff
+bundler				par.pl
+bunzip2				par5.30.pl
+bzcat				parl
+bzcmp				parl5.30
+bzdiff				parldyn
+bzegrep				parldyn5.30
+bzfgrep				passwd
+bzgrep				paste
+bzip2				patch
+bzip2recover			pathchk
+bzless				pathopens.d
+bzmore				pbcopy
+c++				pbpaste
+c++filt				pcap-config
+c2ph				pcsctest
+c89				perl
+c99				perl5.18
+caffeinate			perl5.30
+cal				perlbug
+calendar			perlbug5.18
+cancel				perlbug5.30
+cap_mkdb			perldoc
+captoinfo			perldoc5.18
+cc				perldoc5.30
+cd				perlivp
+certtool			perlivp5.18
+checknr				perlivp5.30
+chflags				perlthanks
+chfn				perlthanks5.18
+chgrp				perlthanks5.30
+chpass				pfbtops
+chsh				pgrep
+cksum				pic
+clang				pico
+clang++				piconv
+clangd				piconv5.18
+clear				piconv5.30
+cmp				pidpersec.d
+cmpdylib			pip3
+codecctl			pkgbuild
+codesign			pkill
+codesign_allocate		pl
+col				pl2pm
+colcrt				pl2pm5.18
+colldef				pl2pm5.30
+colrm				plockstat
+column				pluginkit
+comm				plutil
+command				pmset
+compress			pod2html
+compression_tool		pod2html5.18
+config_data			pod2html5.30
+config_data5.30			pod2latex
+corelist			pod2man
+corelist5.18			pod2man5.18
+corelist5.30			pod2man5.30
+cpan				pod2readme
+cpan2dist			pod2readme5.18
+cpan5.18			pod2readme5.30
+cpan5.30			pod2text
+cpanp				pod2text5.18
+cpanp-run-perl			pod2text5.30
+cpio				pod2usage
+cpp				pod2usage5.18
+cpu_profiler.d			pod2usage5.30
+cpuctl				podchecker
+cpuwalk.d			podchecker5.18
+crc32				podchecker5.30
+crc325.18			podselect
+crc325.30			podselect5.18
+creatbyproc.d			podselect5.30
+crlrefresh			policytool
+crontab				post-grohtml
+csplit				power_report.sh
+csreq				powermetrics
+csrutil				pp
+ctags				pp5.30
+ctf_insert			ppdc
+cu				ppdhtml
+cups-config			ppdi
+cupstestppd			ppdmerge
+curl				ppdpo
+curl-config			pr
+cut				pre-grohtml
+cvaffinity			priclass.d
+cvcp				pridist.d
+cvmkdir				printenv
+cvmkfile			printf
+dappprof			procsystime
+dapptrace			productbuild
+db_archive			productsign
+db_checkpoint			profiles
+db_codegen			prove
+db_deadlock			prove5.18
+db_dump				prove5.30
+db_hotbackup			psed
+db_load				psm
+db_printlog			pstopdf
+db_recover			pstruct
+db_stat				ptar
+db_upgrade			ptar5.18
+db_verify			ptar5.30
+dbicadmin			ptardiff
+dbicadmin5.18			ptardiff5.18
+dbicadmin5.30			ptardiff5.30
+dbilogstrip			ptargrep
+dbilogstrip5.18			ptargrep5.18
+dbilogstrip5.30			ptargrep5.30
+dbiprof				pwhich
+dbiprof5.18			pwhich5.18
+dbiprof5.30			pwpolicy
+dbiproxy			pydoc
+dbiproxy5.18			pydoc2.7
+dbiproxy5.30			python
+dc				python-config
+debinhex.pl			python2
+debinhex5.18.pl			python2.7
+debinhex5.30.pl			python2.7-config
+defaults			python3
+delv				pythonw
+demandoc			pythonw2.7
+desdp				qlmanage
+diagnose-fu			quota
+diff				rails
+diff3				rake
+diffstat			ranlib
+dig				rdoc
+dirname				read
+dispqlen.d			readlink
+ditto				refer
+dmc				renice
+dns-sd				reset
+drutil				resolveLinks
+dscacheutil			rev
+dscl				ri
+dserr				rmic
+dsexport			rmid
+dsimport			rmiregistry
+dsmemberutil			rpcgen
+dsymutil			rs
+dtruss				rsync
+du				ruby
+dwarfdump			rview
+dyld_info			rvim
+easy_install			rwbypid.d
+easy_install-2.7		rwbytype.d
+egrep				rwsnoop
+enc2xs				s2p
+enc2xs5.18			safaridriver
+enc2xs5.30			sample
+encguess			sampleproc
+encode_keychange		sandbox-exec
+env				say
+eqn				sc_usage
+erb				scandeps.pl
+errinfo				scandeps5.18.pl
+ex				scandeps5.30.pl
+execsnoop			schemagen
+expand				scp
+expect				screen
+extcheck			script
+eyapp				sdef
+eyapp5.18			sdiff
+eyapp5.30			sdp
+false				sdx
+fc				security
+fddist				sed
+fdesetup			seeksize.d
+fg				segedit
+fgrep				seq
+file				serialver
+filebyproc.d			servertool
+fileproviderctl			setregion
+filtercalltree			setuids.d
+find				sfltool
+find2perl			sftp
+findrule			shar
+findrule5.18			shasum
+findrule5.30			shasum5.18
+finger				shasum5.30
+fixproc				shlock
+flex				shortcuts
+flex++				showmount
+fmt				sigdist.d
+fold				sips
+fontrestore			size
+footprint			slogin
+format-sql			smbutil
+format-sql5.18			smtpd.py
+from				smtpd2.7.py
+fs_usage			snfsdefrag
+funzip				snmp-bridge-mib
+fuser				snmpbulkget
+fwkdp				snmpbulkwalk
+fwkpfv				snmpconf
+g++				snmpdelta
+gatherheaderdoc			snmpdf
+gcc				snmpget
+gcore				snmpgetnext
+gcov				snmpinform
+gdiffmk				snmpnetstat
+gem				snmpset
+gen_bridge_metadata		snmpstatus
+gencat				snmptable
+genstrings			snmptest
+getconf				snmptranslate
+getopt				snmptrap
+getopts				snmpusm
+git				snmpvacm
+git-receive-pack		snmpwalk
+git-shell			sntp
+git-upload-archive		soelim
+git-upload-pack			sort
+gm4				sourcekit-lsp
+gnumake				spfd
+gperf				spfd5.18
+grep				spfd5.30
+grn				spfquery
+grodvi				spfquery5.18
+groff				spfquery5.30
+groffer				splain
+grog				splain5.18
+grolbp				splain5.30
+grolj4				split
+grops				sqlite3
+grotty				ssh
+groups				ssh-add
+gunzip				ssh-agent
+gzcat				ssh-copy-id
+gzexe				ssh-keygen
+gzip				ssh-keyscan
+h2ph				stapler
+h2ph5.18			stat
+h2ph5.30			stringdups
+h2xs				strings
+h2xs5.18			strip
+h2xs5.30			stty.pl
+hash				stty5.18.pl
+hdid				su
+hdiutil				sudo
+hdxml2manxml			sum
+head				sw_vers
+headerdoc2html			swcutil
+heap				swift
+hexdump				swiftc
+hidutil				symbols
+hiutil				symbolscache
+host				syscallbypid.d
+hostinfo			syscallbyproc.d
+hotspot.d			syscallbysysc.d
+hpftodit			syscapturediags
+hpmdiagnose			sysdiagnose
+htmltree			syslog
+htmltree5.18			systemextensionsctl
+htmltree5.30			tab2space
+ibtool				tabs
+iconutil			tail
+iconv				tailspin
+ictool				talk
+id				tar
+idle				taskinfo
+idle2.7				tbl
+idlj				tbtdiagnose
+imptrace			tccutil
+indent				tclsh
+indxbib				tclsh8.5
+info				tee
+infocmp				test-yaml
+infokey				test-yaml5.30
+infotocap			texi2dvi
+install				texi2pdf
+install-info			texindex
+install_name_tool		textutil
+instmodsh			tfmtodit
+instmodsh5.18			tftp
+instmodsh5.30			thermal
+iofile.d			tic
+iofileb.d			tidy
+iopattern			tidy_changelog
+iopending			tidy_changelog5.30
+iosnoop				tiff2icns
+iotop				tiffutil
+ip2cc				time
+ip2cc5.18			timer_analyser.d
+ip2cc5.30			timerfires
+ipcount				timesyncanalyse
+ipcount5.18			tkcon
+ipcount5.30			tkmib
+ipcrm				tkpp
+ipcs				tkpp5.30
+ippeveprinter			tmdiagnose
+ippfind				tmutil
+ipptool				tnameserv
+iptab				toe
+iptab5.18			top
+iptab5.30			tops
+irb				topsyscall
+jar				topsysproc
+jarsigner			touch
+java				tput
+javac				tr
+javadoc				trace
+javah				traptoemail
+javap				treereg
+javapackager			treereg5.18
+javaws				treereg5.30
+jcmd				trimforce
+jconsole			troff
+jcontrol			true
+jdb				trustcachectl
+jdeps				tset
+jhat				tsort
+jhsdb				tty
+jimage				type
+jinfo				ul
+jjs				ulimit
+jlink				umask
+jmap				umtool
+jmc				unalias
+jobs				uname
+join				uncompress
+jot				unexpand
+jpackage			unifdef
+jps				unifdefall
+jrunscript			uniq
+jsadebugd			units
+jshell				unpack200
+json_pp				unvis
+json_pp5.18			unzip
+json_pp5.30			unzipsfx
+json_xs				update_dyld_shared_cache
+json_xs5.30			update_mcdp29xx
+jstack				uptime
+jstat				usbcfwflasher
+jstatd				users
+jvisualvm			uttype
+kcc				uucp
+kdestroy			uudecode
+kextutil			uuencode
+keytool				uuidgen
+kgetcred			uulog
+kill.d				uuname
+killall				uupick
+kinit				uustat
+klist				uuto
+kmutil				uux
+kpasswd				vi
+krb5-config			view
+kswitch				vim
+ktrace				vimdiff
+lam				vimtutor
+last				vis
+lastcomm			vm_stat
+lastwords			vmmap
+latency				vtool
+layerutil			w
+ld				wait
+ldapadd				wall
+ldapcompare			wc
+ldapdelete			wdutil
+ldapexop			what
+ldapmodify			whatis
+ldapmodrdn			whereis
+ldappasswd			which
+ldapsearch			who
+ldapurl				whoami
+ldapwhoami			whois
+leaks				wish
+leave				wish8.5
+less				write
+lessecho			wsgen
+lex				wsimport
+libnetcfg			xar
+libnetcfg5.18			xargs
+libnetcfg5.30			xattr
+libtool				xcode-select
+lipo				xcodebuild
+lkbib				xcrun
+lldb				xcscontrol
+llvm-g++			xcsdiagnose
+llvm-gcc			xctrace
+loads.d				xed
+locale				xgettext.pl
+localedef			xgettext5.18.pl
+locate				xgettext5.30.pl
+lockstat			xip
+log				xjc
+logger				xml2-config
+login				xml2man
+logname				xmlcatalog
+look				xmllint
+lookbib				xpath
+lorder				xpath5.18
+lp				xpath5.30
+lpoptions			xslt-config
+lpq				xsltproc
+lpr				xsubpp
+lprm				xsubpp5.18
+lpstat				xsubpp5.30
+lsappinfo			xxd
+lsbom				yaa
+lskq				yacc
+lsm				yamlpp-events
+lsmp				yamlpp-events5.30
+lsvfs				yamlpp-highlight
+lwp-download			yamlpp-highlight5.30
+lwp-download5.18		yamlpp-load
+lwp-download5.30		yamlpp-load-dump
+lwp-dump			yamlpp-load-dump5.30
+lwp-dump5.18			yamlpp-load5.30
+lwp-dump5.30			yamlpp-parse-emit
+lwp-mirror			yamlpp-parse-emit5.30
+lwp-mirror5.18			yapp
+lwp-mirror5.30			yapp5.30
+lwp-request			yes
+lwp-request5.18			zcat
+lwp-request5.30			zcmp
+m4				zdiff
+macbinary			zegrep
+macerror			zfgrep
+macerror5.18			zforce
+macerror5.30			zgrep
+machine				zip
+mail				zipcloak
+mailq				zipdetails
+mailx				zipdetails5.18
+make				zipdetails5.30
+makeinfo			zipgrep
+malloc_history			zipinfo
+man				zipnote
+mandoc				zipsplit
+mandoc_soelim			zless
+manpath				zmore
+mcxquery			znew
+mcxrefresh			zprint
+mddiagnose
+cart-123:bin bazze002$ cd /usr/bin
+cart-123:bin bazze002$ pwd
+/usr/bin
+cart-123:bin bazze002$ cd /usr
+cart-123:usr bazze002$ pwd
+/usr
+cart-123:usr bazze002$ cd ..
+cart-123:/ bazze002$ pwd
+/
+cart-123:/ bazze002$ cd /usr
+cart-123:usr bazze002$ pwd
+/usr
+cart-123:usr bazze002$ cd ..
+cart-123:/ bazze002$ pwd
+/
+cart-123:/ bazze002$ cd /usr
+cart-123:usr bazze002$ cd ..
+cart-123:/ bazze002$ pwd
+/
+cart-123:/ bazze002$ cd /usr/bin
+cart-123:bin bazze002$ pwd
+/usr/bin
+cart-123:bin bazze002$ cd ./bin
+-bash: cd: ./bin: No such file or directory
+cart-123:bin bazze002$ cd /usr/bin
+cart-123:bin bazze002$ pwd
+/usr/bin
+cart-123:bin bazze002$ cd ..
+cart-123:usr bazze002$ pwd
+/usr
+cart-123:usr bazze002$ cd ./bin
+cart-123:bin bazze002$ pwd
+/usr/bin
+cart-123:bin bazze002$ cd ..
+cart-123:usr bazze002$ pwd
+/usr
+cart-123:usr bazze002$ cd bin
+cart-123:bin bazze002$ exit
+logout
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
