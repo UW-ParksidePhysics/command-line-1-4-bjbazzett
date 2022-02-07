@@ -1,1 +1,186 @@
+#Concepts
+directory, list, data type, shell, prompt
+Last login: Mon Feb  7 15:32:32 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+cart-123:~ bazze002$ cp -u *.html destination
+cp: illegal option -- u
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:~ bazze002$ cp -j *.html destination
+cp: illegal option -- j
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:~ bazze002$ cp -a *.html destination
+cp: *.html: No such file or directory
+cart-123:~ bazze002$ cp -L *.html destination
+cp: *.html: No such file or directory
+cart-123:~ bazze002$ cp -u *.html destination
+cp: illegal option -- u
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:~ bazze002$ man cp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cart-123:~ bazze002$ man clonefile
+cart-123:~ bazze002$ man cp
+cart-123:~ bazze002$ cp -n *.html destination
+cp: *.html: No such file or directory
+cart-123:~ bazze002$ mkdir directory...
+cart-123:~ bazze002$ mkdir dir1
+cart-123:~ bazze002$ mkdir dir1 dir2 dir3
+mkdir: dir1: File exists
+cart-123:~ bazze002$ cp item1 item2
+cp: item1: No such file or directory
+cart-123:~ bazze002$ cp dir1 dir2
+cp: dir1 is a directory (not copied).
+cart-123:~ bazze002$ cp item... directory
+cp: item...: No such file or directory
+cart-123:~ bazze002$ mv item1 item2
+mv: rename item1 to item2: No such file or directory
+cart-123:~ bazze002$ cd desktop
+cart-123:desktop bazze002$ ls
+Screen Shot 2022-01-31 at 3.39.37 PM.png
+Screen Shot 2022-01-31 at 3.40.00 PM.png
+Screen Shot 2022-01-31 at 3.40.15 PM.png
+cart-123:desktop bazze002$ mv ../dir* .
+cart-123:desktop bazze002$ mv shot* dir1
+cart-123:desktop bazze002$ mv rm shot1
+mv: rename rm to shot1: No such file or directory
+cart-123:desktop bazze002$ mv shot* desktop
+mv: rename shot* to desktop: No such file or directory
+cart-123:desktop bazze002$ cd dir1
+cart-123:dir1 bazze002$ rm shot1
+rm: shot1: No such file or directory
+cart-123:dir1 bazze002$ ls
+shot1.png	shot2.png	shot3.png
+cart-123:dir1 bazze002$ rm shot.png
+rm: shot.png: No such file or directory
+cart-123:dir1 bazze002$ rm shot1.png
+cart-123:dir1 bazze002$ ln -s shot2 link
+cart-123:dir1 bazze002$ ln -s shot2 link shot3
+ln: shot3: No such file or directory
+cart-123:dir1 bazze002$ cd
+cart-123:~ bazze002$ mkdir playground
+cart-123:~ bazze002$ cd playground
+cart-123:playground bazze002$ mkdir dir1 dir2
+cart-123:playground bazze002$ cp /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:playground bazze002$ cp /etc/passwd .
+cart-123:playground bazze002$ ls -l
+total 16
+drwxr-xr-x  2 bazze002  UWP\Domain Users    64 Feb  7 16:20 dir1
+drwxr-xr-x  2 bazze002  UWP\Domain Users    64 Feb  7 16:20 dir2
+-rw-r--r--  1 bazze002  UWP\Domain Users  7868 Feb  7 16:20 passwd
+cart-123:playground bazze002$ cp -v /etc/passswd .
+cp: /etc/passswd: No such file or directory
+cart-123:playground bazze002$ cp -v /etc/passswd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:playground bazze002$ cp -i /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+cart-123:playground bazze002$ mv passwd fun
+cart-123:playground bazze002$ mv fun dir1
+cart-123:playground bazze002$ mv dir1/fun dir2
+cart-123:playground bazze002$ mv dir2/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+cart-123:playground bazze002$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+cart-123:playground bazze002$ mv dir1 dir2
+cart-123:playground bazze002$ ls -l dir2
+total 16
+drwxr-xr-x  2 bazze002  UWP\Domain Users    64 Feb  7 16:22 dir1
+-rw-r--r--  1 bazze002  UWP\Domain Users  7868 Feb  7 16:20 fun
+cart-123:playground bazze002$ ls -l dir2/dir1
+total 0
+cart-123:playground bazze002$ mv dir2/dir1
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+cart-123:playground bazze002$ mv dir1/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+cart-123:playground bazze002$ ln fun fun-hard
+ln: fun: No such file or directory
+cart-123:playground bazze002$ ln fun dir1/fun-hard
+ln: fun: No such file or directory
+cart-123:playground bazze002$ ln fun dir2/fun-hard
+ln: fun: No such file or directory
+cart-123:playground bazze002$ ls -l
+total 0
+drwxr-xr-x  4 bazze002  UWP\Domain Users  128 Feb  7 16:23 dir2
+cart-123:playground bazze002$ ls -li
+total 0
+21884235 drwxr-xr-x  4 bazze002  UWP\Domain Users  128 Feb  7 16:23 dir2
+cart-123:playground bazze002$ ln -s fun fun-sym
+cart-123:playground bazze002$ ln -s ../fun dir1/fun-sym
+ln: dir1/fun-sym: No such file or directory
+cart-123:playground bazze002$ ln -s ../fun dir2/fun-sym
+cart-123:playground bazze002$ ls -l dir1
+ls: dir1: No such file or directory
+cart-123:playground bazze002$ ln -s /home/me/playground/fun dir1/fun-sym
+ln: dir1/fun-sym: No such file or directory
+cart-123:playground bazze002$ ln -s dir1 dir1-sym
+cart-123:playground bazze002$ ls -l
+total 0
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    4 Feb  7 16:26 dir1-sym -> dir1
+drwxr-xr-x  5 bazze002  UWP\Domain Users  160 Feb  7 16:26 dir2
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    3 Feb  7 16:25 fun-sym -> fun
+cart-123:playground bazze002$ rm fun-hard
+rm: fun-hard: No such file or directory
+cart-123:playground bazze002$ ls -l
+total 0
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    4 Feb  7 16:26 dir1-sym -> dir1
+drwxr-xr-x  5 bazze002  UWP\Domain Users  160 Feb  7 16:26 dir2
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    3 Feb  7 16:25 fun-sym -> fun
+cart-123:playground bazze002$ rm -i fun
+rm: fun: No such file or directory
+cart-123:playground bazze002$ ls -l
+total 0
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    4 Feb  7 16:26 dir1-sym -> dir1
+drwxr-xr-x  5 bazze002  UWP\Domain Users  160 Feb  7 16:26 dir2
+lrwxr-xr-x  1 bazze002  UWP\Domain Users    3 Feb  7 16:25 fun-sym -> fun
+cart-123:playground bazze002$ less fun-sym
+fun-sym: No such file or directory
+cart-123:playground bazze002$ rm fun-sym dir1-sym
+cart-123:playground bazze002$ ls -l
+total 0
+drwxr-xr-x  5 bazze002  UWP\Domain Users  160 Feb  7 16:26 dir2
+cart-123:playground bazze002$ cd
+cart-123:~ bazze002$ rm -r playground
+cart-123:~ bazze002$ exit
+logout
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
 
